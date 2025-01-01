@@ -31,11 +31,13 @@ const Header = async () => {
                 </Link>
             </li>
             
-            <LogButton/>
 
         </ul>
         <Menu/>
         </nav>
+        <div className='ml-3 mt-2'>
+        <LogButton/>
+        </div>
     </header>
   )
 }
