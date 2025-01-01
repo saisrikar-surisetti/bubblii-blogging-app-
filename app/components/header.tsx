@@ -20,23 +20,23 @@ const Header = () => {
         <ul className=' px-4 space-x-4 hidden sm:flex'>
 
         <li>
-            <Link href="/create-blog" className=' px-2 rounded-md text-fuchsia-400  shadow-fuchsia-500 hover:shadow-fuchsia-300  bg-neutral-200 shadow-md'>
+            <Link href="/create-blog" className=' px-2 py-1 rounded-md text-fuchsia-400  shadow-fuchsia-500 hover:shadow-fuchsia-300  bg-neutral-200 shadow-md'>
         Create blog
         </Link>
             </li>
             <li>
-            <Link href="/my-blogs" className=' px-2 rounded-md text-fuchsia-400  shadow-fuchsia-500 hover:shadow-fuchsia-300  bg-neutral-200 shadow-md'>
+            <Link href="/my-blogs" className=' px-2 py-1 rounded-md text-fuchsia-400  shadow-fuchsia-500 hover:shadow-fuchsia-300  bg-neutral-200 shadow-md'>
         My blogs
         </Link>
             </li>
         <li>
                 <Link href='/blogs'
-                className='px-2 rounded-md text-fuchsia-400  shadow-fuchsia-500 hover:shadow-fuchsia-300 shadow-md bg-neutral-200'> Blogs
+                className='px-2 py-1 rounded-md text-fuchsia-400  shadow-fuchsia-500 hover:shadow-fuchsia-300 shadow-md bg-neutral-200'> Blogs
                 </Link>
             </li>
             <li>
                 <Link href='/api/auth/signin'
-                className='px-2  rounded-md text-fuchsia-400 shadow-fuchsia-500 hover:shadow-fuchsia-300 shadow-md bg-neutral-200'> Login
+                className='px-2 py-1 rounded-md text-fuchsia-400 shadow-fuchsia-500 hover:shadow-fuchsia-300 shadow-md bg-neutral-200'> Login
                 </Link>
             </li>
 
