@@ -6,7 +6,7 @@ const ButtonLogout = () => {
 
 
   return (
-    <button onClick={() => signOut()} className='px-1 py-0.5 rounded-md text-fuchsia-400 shadow-fuchsia-500 hover:shadow-fuchsia-300 shadow-md bg-neutral-200'> Logout </button>
+    <button onClick={() => signOut()} className=' py-0.5 rounded-3xl text-fuchsia-400 px-2 shadow-fuchsia-500 hover:shadow-fuchsia-300 shadow-md bg-purple-50'> Logout </button>
   )
 }
 

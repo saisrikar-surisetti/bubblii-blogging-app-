@@ -21,7 +21,7 @@ const BlogDetailPage: FC<BlogDetailPageProps> = async ({params}) => {
     })
     console.log(post)
   return (
-    <div className='bg-neutral-300 justify-center grid grid-cols-1 items-center'>
+    <div className=' justify-center grid grid-cols-1 items-center'>
          <div className=' rounded-3xl text-fuchsia-400 bg-fuchsia-50 border-8  mt-10 w-11/12 md:w-1/2 mx-auto my-auto text-center shadow-2xl'>
         <h1 className='font-bold underline text-2xl'>
             {post.title}

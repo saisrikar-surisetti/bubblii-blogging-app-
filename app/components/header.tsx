@@ -8,11 +8,12 @@ const Header = async () => {
     const user = await getCurrentUser()
     
   return (
-    <header className='bg-neutral-300 h-18 p-4 pt-8'>
+    <header className='bg-purple-100 h-18 p-4 pt-8'>
         <nav className='flex justify-between items-center mx-auto'>
-        <h1 className='font-mono text-fuchsia-400 text-2xl rounded-md hover:cursor-pointer hover:text-fuchsia-500 font-bold px-3'>
+         <Link href={'/'}> <h1 className='font-mono text-fuchsia-400 text-2xl rounded-md hover:cursor-pointer hover:text-fuchsia-500 font-bold px-3'>
             Bubblii
         </h1>
+         </Link>
         <ul className=' px-4 space-x-4 hidden sm:flex'>
 
         <li>
@@ -35,7 +36,7 @@ const Header = async () => {
         </ul>
         <Menu/>
         </nav>
-        <div className='ml-3 mt-2'>
+        <div className='ml-3 mt-4'>
         <LogButton/>
         </div>
     </header>

@@ -20,6 +20,6 @@ export async function POST(req:Request) {
          return NextResponse.json({newPost}, {status: 200} )
 
     } catch (error){
-        return NextResponse.json({message: "somethign went wrong!"}, {status: 500})
+        return NextResponse.json({message: "something went wrong!"}, {status: 500})
     }
 }

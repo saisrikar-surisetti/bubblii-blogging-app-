@@ -15,7 +15,7 @@ const BlogsPage = async () => {
      })
      console.log(posts)
 
-  return (<div className='text-center'><div className='bg-neutral-300  flex justify-center' >
+  return (<div className='text-center'><div className='  flex justify-center' >
 <h1 className='text-neutral-300 p-2 w-screen mx-1 font-bold text-xl rounded-3xl bg-fuchsia-400 '>
     Blogs
   </h1>

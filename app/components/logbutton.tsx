@@ -11,7 +11,7 @@ const LogButton = async () => {
     <>
     <div>
         {!user?.name ? ( <Link href='/api/auth/signin'
-         className='px-2 py-1 rounded-md text-fuchsia-400 shadow-fuchsia-500 hover:shadow-fuchsia-300 shadow-md bg-neutral-200'> Login
+         className='px-2 py-1 rounded-3xl text-fuchsia-400 shadow-fuchsia-500 hover:shadow-fuchsia-300 shadow-md bg-purple-50'> Login
          </Link>) : (<ButtonLogout/>)}
         
      </div>
