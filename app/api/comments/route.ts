@@ -1,5 +1,6 @@
 import prisma from "@/app/lib/db";
 import { getCurrentUser } from "@/app/lib/session";
+
 import { NextResponse } from "next/server";
 
 export async function POST(req:Request) {
@@ -20,6 +21,8 @@ export async function POST(req:Request) {
          return NextResponse.json({newPost}, {status: 200} )
 
     } catch (error){
+    
         return NextResponse.json({message: "something went wrong!"}, {status: 500})
     }
+      
 }
