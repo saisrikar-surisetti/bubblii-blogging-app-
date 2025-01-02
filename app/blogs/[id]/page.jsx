@@ -3,13 +3,9 @@ import Comments from '@/app/components/comments'
 import FormComment from '@/app/components/form-comment'
 import prisma from '@/app/lib/db'
 
-interface BlogDetailPageProps{
-    params: {
-        id: string
-    }
-}
 
-const BlogDetailPage: FC<BlogDetailPageProps> = async ({params}) => {
+
+const BlogDetailPage = async ({params}) => {
 
     const post = await prisma.post.findFirst({
         where: {
