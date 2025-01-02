@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import { getCurrentUser } from '../lib/session'
+
 import Menu from './menu'
 import LogButton from './logbutton'
 
 const Header = async () => {
-    const user = await getCurrentUser()
+   
     
   return (
     <header className='bg-purple-100 h-18 p-4 pt-8'>

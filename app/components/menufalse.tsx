@@ -34,7 +34,7 @@ const Menufalse = () => {
                                 </div>  
                               </div>
                               <div className="flex-col py-4">
-                                <h1 className='text-rose-500'>Please login to create blogs, comment or see "my blogs"! </h1>
+                                <h1 className='text-rose-500'>Please login to create blogs, comment or see &quot;my blogs&quot;! </h1>
                                 <br/>
                                 <Link href='/api/auth/signin'
          className='my-12 max-w-24 text-center py-1 px-6 rounded-full text-fuchsia-400  hover:text-black  bg-neutral-200   shadow-fuchsia-200 shadow-md'> Login

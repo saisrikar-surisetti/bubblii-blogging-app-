@@ -1,12 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import { getCurrentUser } from '../lib/session'
-import Menu from './menu'
 import LogButton from './logbutton'
 import Menufalse from './menufalse'
 
 const Headerfalse = async () => {
-    const user = await getCurrentUser()
     
   return (
     <header className=' h-18 p-4 pt-8'>
