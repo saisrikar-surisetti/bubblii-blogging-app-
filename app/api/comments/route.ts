@@ -6,7 +6,7 @@ import { NextResponse } from "next/server";
 export async function POST(req:Request) {
     const user = await getCurrentUser();
 
-    try {
+    
         if(!user?.email) {
             return NextResponse.json({message: 'Not Authenticated!'}, {status: 401})
         }
@@ -20,9 +20,6 @@ export async function POST(req:Request) {
         })
          return NextResponse.json({newPost}, {status: 200} )
 
-    } catch (error){
     
-        return NextResponse.json({message: "something went wrong!"}, {status: 500})
-    }
       
 }

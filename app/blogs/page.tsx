@@ -1,5 +1,4 @@
 import React from 'react'
-import { posts } from '../data/posts'
 import Link from 'next/link'
 import prisma from '../lib/db'
 
